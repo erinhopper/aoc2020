@@ -1,0 +1,18 @@
+#TEST
+start = [0,3,6]
+
+#REAL
+#start = [18,11,9,0,5,1]
+
+turnnum = len(start)+1
+
+reciting = start[:]
+
+while turnnum>2021:
+	if reciting[-1] not in reciting[:-1]:#never been said before
+		reciting.append(0)
+	else:#has been said before
+		lasttime = len(reciting)-reciting[:-1][::-1].index(reciting[-1])#2 greater than real
+		reciting.append(turnnum-lasttime)#
+	turnnum += 1
+	
