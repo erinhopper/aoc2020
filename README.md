@@ -1,6 +1,8 @@
 # aoc2020
 Advent of Code test inputs and programs from December 2020
 
+Problems can be found at https://adventofcode.com/2020#
+
 You are traveling to a tropical island for Christmas. You need 50 stars to pay for the hotel.
 
 ***Day 1: Report Repair***
@@ -55,7 +57,7 @@ You need to charge your computer to check how a tropical storm will affect your 
 
 ***Day 11: Seating System***
 day11_seating.py
-Implementing variations of Conway’s Game of Life until an equilibrium is reached
+Implementing a cellular automata scenario until an equilibrium is reached
 On the next leg of your trip, a ferry ride, passengers sit according to specific rules. 
 
 ***Day 12: Rain Risk***
@@ -120,7 +122,7 @@ Now, the crab challenges you to a game; you have to predict where stars will be 
 
 ***Day 24: Lobby Layout***
 day24_tiling.py
-Implementing 100 cycles of a variation of Conway’s Game of Life on an infinite hexagonal grid
+Implementing 100 cycles of a cellular automata problem on an infinite hexagonal grid
 Finally at your hotel lobby, you have to help builders place hexagonal tiles on the floor.
 
 ***Day 25: Combo Breaker***
