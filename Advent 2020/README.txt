@@ -1,5 +1,7 @@
 You are traveling to a tropical island for Christmas. You need 50 stars to pay for the hotel.
 
+Note: Input text files, refered to as "dayX.txt" where x is the day number. Inputs can be found by logging in at adventofcode.com.
+
 ***Day 1: Report Repair***
 expensereport.py
 Finding two/three numbers in a list that sum to 2020
